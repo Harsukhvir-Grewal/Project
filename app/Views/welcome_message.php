@@ -16,13 +16,13 @@
           <a class="navbar-brand "><img src ="https://www.freepnglogos.com/uploads/wedding/bride-and-groom-wedding-png-transparent-image-10.png" height="35"></a>
         </li>
         <li class="nav-item">
-         <a class="navbar-brand lgname" href="project"> Home </a>
+         <a class="navbar-brand lgname" href="/"> Home </a>
         </li>
         <li class="nav-item">
           <a class="navbar-brand lgname" href="destination"> Destination</a>
          </li>
          <li class="nav-item">
-          <a class="navbar-brand lgname" href="about"> About Us </a>
+          <a class="navbar-brand lgname" href="login"> About Us </a>
          </li>
       </ul>
         <ul class="navbar-nav ">

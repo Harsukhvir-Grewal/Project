@@ -33,7 +33,7 @@
             <a class="nav-link" href="/profile">Profile</a>
           </li>
           <li class="nav-item <?= ($uri->getSegment(1) == 'dashboard' ? 'active' : null) ?>">
-            <a class="nav-link"  href="/about">Booking</a>
+            <a class="nav-link"  href="/booking">Booking</a>
           </li>
         </ul>
         <ul class="navbar-nav my-2 my-lg-0">
@@ -44,7 +44,7 @@
       <?php else: ?>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item <?= ($uri->getSegment(1) == '' ? 'active' : null) ?>">
-            <a class="nav-link" href="/">Login</a>
+            <a class="nav-link" href="/login">Login</a>
           </li>
           <li class="nav-item <?= ($uri->getSegment(1) == 'register' ? 'active' : null) ?>">
             <a class="nav-link" href="/register">Register</a>
