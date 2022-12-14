@@ -1,5 +1,3 @@
-booking done
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +9,6 @@ booking done
   <link href="css.css" rel="stylesheet" type="text/css">
 </head>
 <body class="bgdestination">
-    hellooo
+    <h1>Booking done successfully!!</h1>
 </body>
 </html>

@@ -20,6 +20,8 @@ class Book extends BaseController
         $builder = $db->table('booking');
 
         $builder->insert($data);
+        return redirect()->to('success');
+    
     }
 
 }

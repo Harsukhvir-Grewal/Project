@@ -10,37 +10,37 @@
 </head>
 <body class="bgdestination">
  
-<div class="container mt-5">
+<div class="col-4 offset-sm-4 mt-4">
 <h1>Book Your Dream Wedding Now!!</h1>
 
   <form action="/success" method="post">
     <div class="form-group">
       <label>Name : </label>
-      <input type="text" name="name" class="form-control">
+      <input type="text" name="name" class="form-control" required>
     </div>
 
     <div class="form-group">
       <label>Phone Number : </label>
-      <input type="text" name="phone" class="form-control">
+      <input type="text" name="phone" class="form-control" required>
     </div>
 
     <div class="form-group">
       <label>Place : </label>
-      <input type="text" name="place" class="form-control">
+      <input type="text" name="place" class="form-control" required>
     </div>
 
     <div class="form-group">
       <label>Budget : </label>
-      <input type="text" name="budget" class="form-control">
+      <input type="text" name="budget" class="form-control" required>
     </div>
 
     <div class="form-group">
       <label>Any ideas / remarks : </label>
-      <input type="text" name="idea" class="form-control">
+      <input type="text" name="idea" class="form-control" required>
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
-
+<br><br><br><br><br>
 </form>
 </div>
 

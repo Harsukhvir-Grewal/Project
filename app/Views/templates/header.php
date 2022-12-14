@@ -15,11 +15,11 @@
     <?php
       $uri = service('uri');
      ?>
-    <nav class="navbar navbar-expand-lg bgnav navtext">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg bgnav navtext pl-4">
+      <div class="">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <?php if (session()->get('isLoggedIn')): ?>
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav me-auto">
         <li class="nav-item">
           <a class="navbar-brand "><img src ="https://www.freepnglogos.com/uploads/wedding/bride-and-groom-wedding-png-transparent-image-10.png" height="35"></a>
         </li>
@@ -36,7 +36,7 @@
             <a class="nav-link"  href="/booking">Booking</a>
           </li>
         </ul>
-        <ul class="navbar-nav my-2 my-lg-0">
+        <ul class="navbar-nav my-2 my-lg-0 ms-auto">
           <li class="nav-item">
             <a class="nav-link" href="/logout">Logout</a>
           </li>
